@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>注册/登录页面</title>
+<style>
+.head {
+	background-color: rgba(255,255,255,0);
+	border-bottom-width:thin;
+	border-bottom-color: rgba(255,255,255,0.2);
+	border-style:solid;
+	height: 50px;
+	width: 100%;
+}
+.imgbox {
+	float: left;
+	width:8.3%;
+	height: 50px;
+	text-align: center;
+	transition: all 0.5s;
+}
+.imgbox img {
+	transform:scale(0.65,0.65);
+	padding-top: 30px;
+}
+.imgbox:hover {
+	transform: rotatey(360deg);
+}
+.head a {
+	font-size: 17px;
+	letter-spacing:1.5px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	width:8.3%;
+	margin-top: 0px;
+	line-height: 50px;
+	height: 50px;
+	text-align: center;
+}
+.head a:hover {
+	color:rgba(252,129,75,1);
+}
+</style>
+<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="head" style="background-color: black;">
+	<a href="登录.html">注册/登录</a> 
+	<a href="帽子.html">帽子</a> 
+	<a href="鞋子.html">鞋子</a> 
+	<a href="眼镜.html">眼镜</a> 
+	<a href="人物形象.html">人物形象</a> 
+	<a href="裤子.html">裤子</a> 
+	<a href="上衣.html">上衣</a> 
+	<a href="外套.html">外套</a> 
+	<a href="裙装.html">裙装</a> 
+	<a href="其他.html">其他</a> 
+	<a href="开始搭配.html">开始搭配</a> 
+	<a href="试衣间.html">退出</a>
+</div>
+<div class="materialContainer">
+	<div class="box">
+		<div class="title">登录</div>
+		<div class="input">
+			<label for="name">用户名</label>
+			<input type="text" name="name" id="name">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="pass">密码</label>
+			<input type="password" name="pass" id="pass">
+			<span class="spin"></span>
+		</div>
+		<div class="button login">
+			<button>
+				<span>登录</span>
+				<i class="fa fa-check"></i>
+			</button>
+		</div>
+		<a href="javascript:" class="pass-forgot">忘记密码？</a>
+	</div>
+
+	<div class="overbox">
+		<div class="material-button alt-2">
+			<span class="shape"></span>
+		</div>
+		<div class="title">注册</div>
+		<div class="input">
+			<label for="regname">用户名</label>
+			<input type="text" name="regname" id="regname">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="regpass">密码</label>
+			<input type="password" name="regpass" id="regpass">
+			<span class="spin"></span>
+		</div>
+		<div class="input">
+			<label for="reregpass">确认密码</label>
+			<input type="password" name="reregpass" id="reregpass">
+			<span class="spin"></span>
+		</div>
+		<div class="button">
+			<button>
+				<span>注册</span>
+			</button>
+		</div>
+	</div>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
