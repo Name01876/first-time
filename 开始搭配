@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>开始搭配</title>
+<style>
+.head {
+    background-color: rgba(255,255,255,0);
+    border-bottom-width:thin;
+    border-bottom-color: rgba(255,255,255,0.2);
+    border-style:solid;
+    height: 50px;
+    width: 100%;
+}
+.imgbox {
+    float: left;
+    width:8.3%;
+    height: 50px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.imgbox img {
+    transform:scale(0.65,0.65);
+    padding-top: 30px;
+}
+.imgbox:hover {
+    transform: rotatey(360deg);
+}
+.head a {
+    font-size: 17px;
+    letter-spacing:1.5px;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    width:8.3%;
+    margin-top: 0px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+}
+.head a:hover {
+    color:rgba(252,129,75,1);
+}
+</style>
+</head>
+<body>
+<div class="head" style="background-color: black;">
+    <a href="登录.html">注册/登录</a> 
+    <a href="帽子.html">帽子</a> 
+    <a href="鞋子.html">鞋子</a> 
+    <a href="眼镜.html">眼镜</a> 
+    <a href="人物形象.html">人物形象</a> 
+    <a href="裤子.html">裤子</a> 
+    <a href="上衣.html">上衣</a> 
+    <a href="外套.html">外套</a> 
+    <a href="裙装.html">裙装</a> 
+    <a href="其他.html">其他</a> 
+    <a href="开始搭配.html">开始搭配</a> 
+    <a href="试衣间.html">退出</a>
+</div>
+<script>
+window.alert("抱歉，由于涉及到的部分软件技术还没有学会，加上设计人员精力有限，智商不足，此页面暂未开发，敬请期待");
+</script>
+</body>
+</html>
